@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:id="@+id/base_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="6dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+        android:id="@+id/clock_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="192dp" >
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/clock_dial"-->
+            <!--android:id="@+id/clock"/>-->
+
+        <ayush.example.com.analog_clock.AnalogClock1
+            android:id="@+id/clock"
+            style="@style/clock"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            />
+
+    </LinearLayout>
+  
+</LinearLayout>
